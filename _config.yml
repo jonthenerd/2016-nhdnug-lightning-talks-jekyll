@@ -1,0 +1,11 @@
+# Jekyll Settings
+exclude: 
+  - Gemfile 
+  - Gemfile.lock 
+  - LICENSE 
+  - .sass-cache
+
+# Site Settings
+title: NHDNUG Rocks!
+description: like a boss
+url: http://www.example.com

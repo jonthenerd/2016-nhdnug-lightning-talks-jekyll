@@ -1,0 +1,5 @@
+{% assign share_url = include.url | escape | prepend: site.url | prepend : "https://www.facebook.com/sharer/sharer.php?u=" %}
+
+<div style="display: inline-block; background: grey; border: 1px solid black;">
+<a href="{{ share_url }}">Share on Facebook</a>
+</div>
